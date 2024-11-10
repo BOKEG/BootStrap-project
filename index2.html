@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant and Travel Agency</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8324bd09e8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#about"><span style="color: red;">TR</span>AVEL 
+            <span style="color: blue;">A</span>GENCY
+            <span style="color: palevioletred;">T</span>OURS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#menu">Destinations</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">Tours</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron jumbotron-fluid text-center text-white" style="background-image: url('/images/Adventures.jpg'); background-size: cover;">
+        <div class="container">
+            <h1 class="display-4">Explore the World with Us</h1>
+            <p class="lead">Your next adventure awaits!</p>
+            <a href="#destinations" class="btn btn-primary btn-lg">View Destinations</a>
+        </div>
+    </header>
+
+    <section id="destinations" class="container my-5">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="destination1.jpg" class="card-img-top" alt="Destination 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Destination 1</h5>
+                        <p class="card-text">A brief description of Destination 1.</p>
+                        <a href="#" class="btn btn-info">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="destination1.jpg" class="card-img-top" alt="Destination 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Destination 1</h5>
+                        <p class="card-text">A brief description of Destination 1.</p>
+                        <a href="#" class="btn btn-info">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="destination1.jpg" class="card-img-top" alt="Destination 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Destination 1</h5>
+                        <p class="card-text">A brief description of Destination 1.</p>
+                        <a href="#" class="btn btn-info">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card">
+                    <img src="destination1.jpg" class="card-img-top" alt="Destination 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Destination 1</h5>
+                        <p class="card-text">A brief description of Destination 1.</p>
+                        <a href="#" class="btn btn-info">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+       
+    </section>
+
+    <section id="tours" class="container my-5">
+        <h2>Our Tour Packages</h2>
+        <div class="accordion" id="toursAccordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Tour Package 1
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#toursAccordion">
+                    <div class="card-body">
+                        Brief description of Tour Package 1.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Tour Package 1
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#toursAccordion">
+                    <div class="card-body">
+                        Brief description of Tour Package 1.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Tour Package 1
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#toursAccordion">
+                    <div class="card-body">
+                        Brief description of Tour Package 1.
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for additional tour packages -->
+        </div>
+    </section>
+    
+    <section id="contact" class="container my-5">
+        <h2>Contact Us</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="destination">Destination of Interest</label>
+                <input type="text" class="form-control" id="destination">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+
+    <footer class="text-center color-[grey] py-4">
+        <a class="navbar-brand" href="#"><span style="color: red;">TR</span>AVEL 
+            <span style="color: blue;">A</span>GENCY
+            <span style="color: palevioletred;">T</span>OURS</a>
+            <div class="icon">
+                <ul class="icon">
+                    <li class="icon"><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f" style="color: #eef1f6;"></i></a></li>
+                    <li class="icon"><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="color: #e1e2e5;"></i></a></li>
+                    <li class="icon"><a href="https://ke.linkedin.com/"><i class="fa-brands fa-linkedin-in" style="color: #e3e7ee;"></i></a></li>
+                </ul> 
+            </div>
+    
+    </footer>
+        
+    
+    
+</body>
+</html>
