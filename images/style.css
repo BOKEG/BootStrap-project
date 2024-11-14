@@ -17,3 +17,26 @@
     padding: 30px;
     margin: 30PX;
 } */
+
+.contact-section {
+  /* display: flex;
+  min-height: 100vh; */
+  background-color: #ecad6d;
+}
+.contact-info {
+  background: url(/images/mozab.jpg) no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 50px;
+  width: 50%;
+}
+.contact-info h2, .contact-info p {
+  color: #ffffff;
+}
+.contact-info a {
+  color: #28a745;
+}
+.contact-form {
+  width: 50%;
+  padding: 50px;
+}
