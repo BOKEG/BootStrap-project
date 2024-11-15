@@ -9,18 +9,8 @@
 .footer{
   background-color: rgb(10, 10, 15);
 }
-/* .card{
-    display: flex;
-    justify-content: space-evenly;
-    width: 300px;
-    height: 400px;
-    padding: 30px;
-    margin: 30PX;
-} */
 
 .contact-section {
-  /* display: flex;
-  min-height: 100vh; */
   background-color: #ecad6d;
 }
 .contact-info {
@@ -28,7 +18,7 @@
   background-size: cover;
   color: white;
   padding: 50px;
-  width: 50%;
+  width: 50%; 
 }
 .contact-info h2, .contact-info p {
   color: #ffffff;
